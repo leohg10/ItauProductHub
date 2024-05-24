@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": "pBn_u8djYRdxZ0X-50Due",
+      "name": "DevOps Toolkit",
+      "imageUrl": "https://example.com/images/devops_toolkit.png",
+      "summary": "Ferramentas essenciais para DevOps.",
+      "description": "Um conjunto completo de ferramentas para automação de processos DevOps, incluindo CI/CD, monitoramento e gestão de infraestrutura.",
+      "family": "DevOps",
+      "target": "Desenvolvedores, Engenheiros de DevOps",
+      "state": "Disponível",
+      "activeUsers": 1500,
+      "documentation": "https://example.com/docs/devops_toolkit"
+    },
+    {
+      "id": "Hl9Lm615UVLd87xCzbyAC",
+      "name": "Front-End Library",
+      "imageUrl": "https://example.com/images/frontend_library.png",
+      "summary": "Biblioteca de componentes para front-end.",
+      "description": "Uma biblioteca abrangente de componentes reutilizáveis para desenvolvimento front-end, incluindo botões, formulários, e gráficos.",
+      "family": "Front-End",
+      "target": "Desenvolvedores Front-End",
+      "state": "Em Desenvolvimento",
+      "activeUsers": 800,
+      "documentation": "https://example.com/docs/frontend_library"
+    },
+    {
+      "id": "8EyLotG9yS0gpygfk9uQA",
+      "name": "AI Analytics Suite",
+      "imageUrl": "https://example.com/images/ai_analytics_suite.png",
+      "summary": "Suite de análise baseada em IA.",
+      "description": "Uma suite poderosa para análise de dados, utilizando algoritmos de aprendizado de máquina para gerar insights acionáveis.",
+      "family": "Inteligência Artificial",
+      "target": "Cientistas de Dados, Analistas",
+      "state": "Disponível",
+      "activeUsers": 2200,
+      "documentation": "https://example.com/docs/ai_analytics_suite"
+    }
+  ],
+  "users": [
+    {
+      "id": "oOld0V8LAqlDoMN4mwDwM",
+      "username": "newuser",
+      "password": "newpassword"
+    },
+    {
+      "id": "Ix_EFfYP0QMr1v8_N_Jzs",
+      "username": "newuser",
+      "password": "newpassword"
+    }
+  ]
+}
