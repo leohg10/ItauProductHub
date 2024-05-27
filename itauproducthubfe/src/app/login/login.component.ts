@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { FormsModule }   from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   standalone: true,
@@ -16,7 +16,7 @@ export class LoginComponent {
   constructor(private router: Router) { }
 
   onSubmit() {
-    
+
     if (this.email === 'admin@itau.com' && this.password === 'admin') {
       // Sucesso na autenticação, redirecionar para a página principal
       this.router.navigate(['/', 'home']);

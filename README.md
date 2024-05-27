@@ -21,13 +21,14 @@ Essa é uma Aplicação criada para um teste, ela serve como um marketplace para
     Desenvolvimento de uma API REST para cadastrar dados de produtos.
     Tela de inclusão de informações do produto com envio de imagens. (Parcial)
 	Unittests para cada component.
+    Adicionar cache e dev builds ao gitignore. (.angular?)
 
 ### Possíveis Melhorias
 
-    Encriptação de senhas (Hash/SHA/bcrypt)
-    Sessão/Cookies para manter dados de sessão do usuário
-    Criação de Produtos e Usuários com passos de verificação (Evitar duplicidade)
-    Autenticação nas requests para evitar ataques direcionados ao Backend
+    Encriptação de senhas. (Hash/SHA/bcrypt)
+    Sessão/Cookies para manter dados de sessão do usuário.
+    Criação de Produtos e Usuários com passos de verificação. (Evitar duplicidade)
+    Autenticação nas requests para evitar ataques direcionados ao Backend.
 
 
 ## Requisitos

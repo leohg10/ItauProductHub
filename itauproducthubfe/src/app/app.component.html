@@ -1,18 +1,21 @@
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search Bar</title>
-  <link rel="stylesheet" href="app.component.css">
-</head>
-
-<body>
-  <div class="search-container">
-    <input type="text" placeholder="Search..." class="search-bar">
+<div class="navbar">
+  <div class="logo">
+    <img src="/assets/Itau_Unibanco_logo.svg" alt="Product Hub Logo">
   </div>
-</body>
-
-</html>
-
-<router-outlet />
+  <nav class="nav-links">
+    <a href="/home">Início</a>
+    <a href="/products">Produtos</a>
+    <a href="/about">Sobre</a>
+    <a href="/contact">Contatos</a>
+  </nav>
+  <div class="search-container">
+    <input type="text" placeholder="Procurar produtos..." class="search-bar">
+  </div>
+  <div class="user-actions">
+    <a href="/login" class="login-btn">Login</a>
+    <a href="/register" class="register-btn">Cadastrar</a>
+  </div>
+</div>
+<main class="main-content">
+  <router-outlet></router-outlet>
+</main>
