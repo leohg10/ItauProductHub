@@ -2,6 +2,7 @@
 Essa é uma Aplicação criada para um teste, ela serve como um marketplace para que engenheiros publiquem e encontrem produtos digitais. Utiliza Angular no frontend, Node.js e lowdb no backend.
 
 ## Funcionalidades 
+
 ### Implementadas
 
     Autenticação de usuários. (Parcial)
@@ -14,9 +15,12 @@ Essa é uma Aplicação criada para um teste, ela serve como um marketplace para
 
     Instruções para Instalação, local e Deploy.
     Pesquisa por produtos ou categorias de produto.
+	CRUD de produtos.
+	CRUD de usuários.
     Compartilhamento de informações do produto com mídias sociais.
     Desenvolvimento de uma API REST para cadastrar dados de produtos.
     Tela de inclusão de informações do produto com envio de imagens. (Parcial)
+	Unittests para cada component.
 
 ### Possíveis Melhorias
 
