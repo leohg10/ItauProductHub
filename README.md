@@ -1,68 +1,70 @@
 # Itaú Product Hub
-Essa é uma Aplicação criada para um teste, ela serve como um marketplace para que engenheiros publiquem e encontrem produtos digitais. Utiliza Angular no frontend, Node.js e lowdb no backend.
 
-Instruções
+## Descrição
+Itaú Product Hub é uma Single Page Application desenvolvida como parte de um teste técnico. Esta aplicação permite que engenheiros publiquem e encontrem produtos digitais. Ela utiliza Angular para o frontend e Node.js com lowdb para o backend.
 
-Requisitos:
-    Node.js ^20.13 (https://nodejs.org/en)
-    npm ^10.5.2 (https://nodejs.org/en)
-    Angular ^17 (npm install -g @angular/cli)
+## Instruções de Instalação
 
-Clone o projeto
+### Requisitos
+- Node.js ^20.13 - [Download](https://nodejs.org/en)
+- npm ^10.5.2 - Incluído na instalação do Node.js
+- Angular ^17 - Instale globalmente usando `npm install -g @angular/cli`
 
-Para rodar o projeto é necessário instalar as dependencias do frontend e do backend
+### Clonando o projeto
+Clone o repositório para sua máquina local usando:
 
-Backend:
-Entre na pasta iphbackend (backend) e use o comando:
-npm install
-Rode o modo dev usando o nodemon:
-npm run dev
-Servidor backend rodando
+```git clone https://github.com/leohg10/ItauProductHub.git```
 
-Front-end:
-Entre na pasta itauproducthubfe (front-end) e use o comando:
-npm install
-Rode o modo dev usando o comando:
-ng serve
+### Configurando o Backend
+1. Entre na pasta `iphbackend`
+```cd iphbackend```
+2. Instale as dependências:
+```npm install```
+3. Inicie o servidor em modo de desenvolvimento com `nodemon`:
+```npm run dev```
 
-Para testar o projeto acesse `http://localhost:4200/` após rodar o servidor e o front-end.
+Confirme que o servidor está rodando corretamente.
 
-Build:
-Para gerar uma build use o comando:
-ng build
+### Configurando o Frontend
+1. Entre na pasta `itauproducthubfe`:
+```cd itauproducthubfe```
+2. Instale as dependências:
+```npm install```
+3. Inicie a aplicação em modo de desenvolvimento:
+```ng serve```
 
-Unit tests:
-(Not yet implemented)
-Execute o comando 'ng test'
+### Acesso à Aplicação
+Acesse `http://localhost:4200/` no seu navegador para testar a aplicação após iniciar o servidor e o frontend.
 
-## Funcionalidades 
+### Build do Projeto
+Para gerar uma build para produção, utilize:
+```ng build```
+
+### Testes Unitários
+- Testes unitários ainda não foram implementados.
+
+## Funcionalidades
 
 ### Implementadas
-
-    Autenticação de usuários. (Parcial)
-    Armazenamento de dados de usuário. (Completa)
-    Listagem de produtos em cards com imagem e informações sobre cada produto. (Completa)
-    Paginação dos resultados da consulta para exibir pelo menos 10 produtos por vez. (Parcial)
-    Tela de detalhamento do produto ao clicar em um card. (Parcial)
+- **Autenticação de Usuários:** Implementação parcial.
+- **Armazenamento de Dados do Usuário:** Completo.
+- **Listagem de Produtos:** Produtos são listados em cards com imagens e informações relevantes, implementação completa.
+- **Paginação de Resultados:** Implementação parcial para exibir pelo menos 10 produtos por página.
+- **Detalhamento de Produto:** Ao clicar em um card de produto, uma nova tela com mais detalhes é exibida, implementação parcial.
 
 ### A Serem Implementadas
-
-    Instruções para Instalação, local e Deploy.
-    Pesquisa por produtos ou categorias de produto.
-	CRUD de produtos.
-	CRUD de usuários.
-    Compartilhamento de informações do produto com mídias sociais.
-    Desenvolvimento de uma API REST para cadastrar dados de produtos.
-    Tela de inclusão de informações do produto com envio de imagens. (Parcial)
-	Unittests funcionais para cada component.
-    Parametrizar o acesso ao backend.
+- Funcionalidades de pesquisa por produtos ou categorias.
+- CRUD completo para produtos e usuários.
+- Compartilhamento de informações do produto em mídias sociais.
+- Finalizar desenvolvimento da API REST para gerenciamento de produtos.
+- Tela de inclusão de informações do produto com suporte a envio de imagens, implementação parcial.
+- Testes unitários para cada componente.
+- Parametrização de acesso ao backend.
 
 ### Possíveis Melhorias
-
-    Encriptação de senhas. (Hash/SHA/bcrypt)
-    Sessão/Cookies para manter dados de sessão do usuário.
-    Criação de Produtos e Usuários com passos de verificação. (Evitar duplicidade)
-    Autenticação nas requests para evitar ataques direcionados ao Backend.
-    Salvar estatísticas de usuário, dashboard.
-    Salvar preferências de usuário como darkmode e favoritos.
-    Comentarios e commendations(Elogios/recs) em projetos.
+- **Segurança:** Utilizar encriptação de senhas (Hash/SHA/bcrypt).
+- **Sessão de Usuário:** Implementar cookies para manter dados da sessão.
+- **Verificações:** Criar passos de verificação durante a criação de produtos e usuários para evitar duplicidade.
+- **Autenticação de Requests:** Reforçar a segurança do backend contra ataques.
+- **Personalização:** Permitir que usuários salvem preferências como darkmode e favoritos.
+- **Interações Sociais:** Adicionar funcionalidades de comentários e recomendações em produtos.
