@@ -1,0 +1,52 @@
+/* add-product.component.css */
+.form-container {
+    max-width: 600px; /* Limita a largura do formulário para manter a estética */
+    margin: 0 auto; /* Centraliza o formulário */
+    padding: 20px;
+    background-color: #f7f7f7; /* Um fundo sutil para o formulário */
+    border-radius: 8px; /* Bordas arredondadas para o container do formulário */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave para dar profundidade */
+}
+
+.input-group {
+    margin-bottom: 15px; /* Espaçamento entre os grupos de entrada */
+}
+
+input[type="text"], input[type="number"], textarea {
+    width: 100%; /* Faz os campos ocuparem toda a largura do grupo de entrada */
+    padding: 10px; /* Padding para tornar o campo de entrada mais fácil de interagir */
+    border: 1px solid #ccc; /* Borda sutil */
+    border-radius: 4px; /* Bordas ligeiramente arredondadas para os campos de entrada */
+}
+
+input[type="text"]:focus, input[type="number"]:focus, textarea:focus {
+    border-color: #0056b3; /* Muda a cor da borda ao focar para destacar o campo ativo */
+    box-shadow: 0 0 8px rgba(0,86,179,0.2); /* Sombra suave ao focar */
+}
+
+textarea {
+    height: 100px; /* Altura fixa para campos de texto grande */
+}
+
+label {
+    display: block; /* Faz cada label aparecer em sua própria linha */
+    margin-bottom: 5px; /* Espaço entre o label e o campo de entrada */
+    color: #333; /* Cor escura para contraste */
+    font-weight: bold; /* Torna o texto do label negrito */
+}
+
+button {
+    width: 100%; /* Faz o botão se estender pela largura total do grupo de entrada */
+    padding: 10px 15px;
+    background-color: #007bff; /* Cor azul primária para ação principal */
+    color: white;
+    font-size: 16px; /* Tamanho de fonte maior para melhor legibilidade */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Cursor de ponteiro para indicar interatividade */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor mais escura no hover para feedback visual */
+}

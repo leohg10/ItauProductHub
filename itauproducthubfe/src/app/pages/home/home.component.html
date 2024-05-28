@@ -1,13 +1,21 @@
+<div class="header-area d-flex justify-content-between align-items-center mb-4">
+    <h1 class="page-header">Produtos</h1>
+    <div>
+        <button class="btn btn-primary mr-2" (click)="refreshProducts()">Atualizar</button>
+        <button class="btn btn-success" (click)="addNewProduct()">Novo Produto</button>
+    </div>
+</div>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Produtos</title>
+    <title>Produtos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="home.component.css">
 </head>
 
 <body>
     <div class="container mt-5">
+        <h2>Grade de Produtos</h2>
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12 mb-4" *ngFor="let product of products">
                 <app-product-card [product]="product"></app-product-card>

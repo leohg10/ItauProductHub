@@ -54,6 +54,7 @@ Para gerar uma build para produção, utilize:
 
 ### A Serem Implementadas
 - Funcionalidades de pesquisa por produtos ou categorias.
+- Upload e armazenamento de imagens para os produtos.
 - CRUD completo para produtos e usuários.
 - Compartilhamento de informações do produto em mídias sociais.
 - Finalizar desenvolvimento da API REST para gerenciamento de produtos.

@@ -35,6 +35,30 @@
       "state": "Disponível",
       "activeUsers": 2200,
       "documentation": "https://example.com/docs/ai_analytics_suite"
+    },
+    {
+      "id": "1Hy2jSLYW3lUDH9aiI-j4",
+      "name": "Customer Relationship Management (CRM) System",
+      "imageUrl": "https://example.com/images/crm_system.png",
+      "summary": "Sistema de gerenciamento de relacionamento com clientes.",
+      "description": "Uma solução completa para gerenciamento de interações com clientes, automação de marketing e análise de dados de vendas.",
+      "family": "CRM",
+      "target": "Equipes de Vendas, Marketing e Suporte ao Cliente",
+      "state": "Estável",
+      "activeUsers": 5000,
+      "documentation": "https://example.com/docs/crm_system"
+    },
+    {
+      "id": "HxElMLaT3W61SzrnPEJkL",
+      "name": "E-commerce Platform",
+      "imageUrl": "https://example.com/images/ecommerce_platform.png",
+      "summary": "Plataforma de e-commerce completa.",
+      "description": "Uma plataforma poderosa para criar e gerenciar lojas online, com recursos de pagamento, gerenciamento de estoque e análise de vendas.",
+      "family": "E-commerce",
+      "target": "Empreendedores, Lojistas Online",
+      "state": "Disponível",
+      "activeUsers": 4200,
+      "documentation": "https://example.com/docs/ecommerce_platform"
     }
   ],
   "users": [

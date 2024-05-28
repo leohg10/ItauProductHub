@@ -16,3 +16,21 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
 }
+
+.header-area {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.page-header {
+    margin-bottom: 0;
+}
+
+.btn {
+    padding: 0.375rem 0.75rem;
+}
+
+.btn-primary {
+    margin-right: 8px;
+}
