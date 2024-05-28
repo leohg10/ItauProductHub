@@ -1,12 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import { ProductService, Product } from '../product.service';
-import { CommonModule } from '@angular/common';
-import { ProductCardComponent } from '../product-card/product-card.component';
+import { Component } from '@angular/core';
+import { ProductService, Product } from "../../services/product.service";
 
 @Component({
   selector: 'app-home',
-  standalone: true,
-  imports: [CommonModule, ProductCardComponent],
+  standalone: false,
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

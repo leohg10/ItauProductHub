@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 import { JSONFilePreset } from 'lowdb/node';
 import { nanoid } from 'nanoid';
 
@@ -16,6 +17,7 @@ const authenticate = (req, res, next) => {
 };
 
 app.use(express.json());
+app.use(cors());
 
 // Lowdb config and start
 const defaultData = { products: [], users: [] };

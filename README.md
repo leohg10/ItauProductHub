@@ -6,7 +6,7 @@ Essa é uma Aplicação criada para um teste, ela serve como um marketplace para
 ### Implementadas
 
     Autenticação de usuários. (Parcial)
-    Armazenamento de dados do usuário. (Completa)
+    Armazenamento de dados de usuário. (Completa)
     Listagem de produtos em cards com imagem e informações sobre cada produto. (Completa)
     Paginação dos resultados da consulta para exibir pelo menos 10 produtos por vez. (Parcial)
     Tela de detalhamento do produto ao clicar em um card. (Parcial)
@@ -20,8 +20,7 @@ Essa é uma Aplicação criada para um teste, ela serve como um marketplace para
     Compartilhamento de informações do produto com mídias sociais.
     Desenvolvimento de uma API REST para cadastrar dados de produtos.
     Tela de inclusão de informações do produto com envio de imagens. (Parcial)
-	Unittests para cada component.
-    Adicionar cache e dev builds ao gitignore. (.angular?)
+	Unittests funcionais para cada component.
 
 ### Possíveis Melhorias
 

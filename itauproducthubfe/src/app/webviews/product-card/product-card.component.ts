@@ -1,11 +1,10 @@
 import { Component, Input } from '@angular/core';
-import { Product } from '../product.service';
+import { Product } from '../../services/product.service';
 
 @Component({
   selector: 'app-product-card',
-  standalone: true,
-  imports: [],
   templateUrl: './product-card.component.html',
+  standalone: true,
   styleUrl: './product-card.component.css'
 })
 export class ProductCardComponent {
