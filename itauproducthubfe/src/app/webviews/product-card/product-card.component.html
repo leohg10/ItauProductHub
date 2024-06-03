@@ -4,6 +4,6 @@
         <h3 class="card-title">{{ product.name }}</h3>
         <p class="card-description">{{ product.summary }}</p>
         <p class="card-text"><small class="text-muted">🙍🏽‍♂️ {{ product.activeUsers }}</small></p>
-        <a href="#" class="card-button">Ver detalhes</a>
+        <button class="card-button" (click)="viewProduct()">Ver detalhes</button>
     </div>
 </div>

@@ -48,9 +48,10 @@ Para gerar uma build para produção, utilize:
 ### Implementadas
 - **Autenticação de Usuários:** Implementação parcial.
 - **Armazenamento de Dados do Usuário:** Completo.
-- **Listagem de Produtos:** Produtos são listados em cards com imagens e informações relevantes, implementação completa.
+- **Listagem de Produtos:** Produtos são listados em cards com imagens e informações relevantes.
 - **Paginação de Resultados:** Implementação parcial para exibir pelo menos 10 produtos por página.
-- **Detalhamento de Produto:** Ao clicar em um card de produto, uma nova tela com mais detalhes é exibida, implementação parcial.
+- **Detalhamento de Produto:** Ao clicar em um card de produto, uma nova tela com mais detalhes é exibida.
+- **Adição de novo Produto:** Ao clicar em Novo, uma nova tela com um formulário é exibida.
 
 ### A Serem Implementadas
 - Funcionalidades de pesquisa por produtos ou categorias.
@@ -69,3 +70,4 @@ Para gerar uma build para produção, utilize:
 - **Autenticação de Requests:** Reforçar a segurança do backend contra ataques.
 - **Personalização:** Permitir que usuários salvem preferências como darkmode e favoritos.
 - **Interações Sociais:** Adicionar funcionalidades de comentários e recomendações em produtos.
+- **Clean code:** Separar o modelo do produto de dentro do serviço de produtos.

@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 
-import { ProductCardComponent } from "../../webviews/product-card/product-card.component";
+import { ProductCardModule } from "../../webviews/product-card/product-card.module";
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { ProductCardComponent } from "../../webviews/product-card/product-card.c
   imports: [
     CommonModule,
     HomeRoutingModule,
-    ProductCardComponent
+    ProductCardModule
   ]
 })
 export class HomeModule { }

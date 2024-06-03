@@ -1,0 +1,11 @@
+<div *ngIf="product" class="product-container">
+    <h2 class="product-title">{{ product.name }}</h2>
+    <img [src]="product.imageUrl" alt="{{ product.name }}" class="product-image">
+    <div class="product-details">
+        <p class="product-description">{{ product.description }}</p>
+        <p class="product-family"><strong>Família:</strong> {{ product.family }}</p>
+        <p class="product-target"><strong>Público-alvo:</strong> {{ product.target }}</p>
+        <p class="product-state"><strong>Estado:</strong> {{ product.state }}</p>
+        <p class="product-active-users"><strong>Usuários Ativos:</strong> {{ product.activeUsers }}</p>
+    </div>
+</div>
